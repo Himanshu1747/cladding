@@ -159,6 +159,15 @@
     .grid-aboutmainsec {
         max-width: 1230px;
     }
+    .projects-image {
+        height: 290px;
+    }
+    section.aboutourproject-sec{
+        padding: 60px 0px;
+    }
+    .rowproject{
+        padding-top: 50px;
+    }
 
 
 }
@@ -424,6 +433,28 @@
     .mini-span {
         font-size: 22px;
     }
+    .projects-holder p,span.projectdate{
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .readmore-icon{
+        padding-top: 10px;
+    }
+    .readmore-icon a, .readmore-icon p {
+        font-size: 16px;
+    }
+    .projects-image {
+        height: 245px;
+    }
+    .btm-datahere{
+        padding:15px
+    }
+    section.aboutourproject-sec{
+        padding: 50px 0px;
+    }
+    .rowproject{
+        padding-top: 30px;
+    }
     
 
 
@@ -572,6 +603,14 @@
     }
     .cuter-inside {
         max-width: 95%;
+    }
+    .projects-holder{
+        height: auto !important; 
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    section.aboutourproject-sec{
+        padding: 40px 0px;
     }
 
 
