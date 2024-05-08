@@ -226,19 +226,7 @@ var swiper = new Swiper(".mySwiperaboutacrdean", {
 });
 // ABOUT ACRDEAN SLIDER MAIN END
 
-// HEIGHT EQUAL 
-$(document).ready(function() {
-    var maxHeight = 0;
-    $('.projects-holder').each(function() {
-      var currentHeight = $(this).height();
-      if (currentHeight > maxHeight) {
-        maxHeight = currentHeight;
-      }
-    });
-    
-    $('.projects-holder').height(maxHeight);
-  });
-// HEIGHT EQUAL END
+
 
 // AOS 
 AOS.init();

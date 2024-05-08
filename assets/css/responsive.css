@@ -136,12 +136,15 @@
     .grid-dataancor a {
         font-size: 18px;
     }
+
     section.aboutbaner-sec {
         min-height: 685px;
     }
-    .margin-top{
+
+    .margin-top {
         margin-top: 82px;
     }
+
     .aboutholder {
         max-width: 600px;
     }
@@ -150,23 +153,33 @@
         font-size: 16px;
         line-height: 28px;
     }
+
     .acrdeanholder {
         max-width: 655px;
     }
-    .aboutmain-sec{
+
+    .aboutmain-sec {
         padding: 50px 0px;
     }
+
     .grid-aboutmainsec {
         max-width: 1230px;
     }
+
     .projects-image {
         height: 290px;
     }
-    section.aboutourproject-sec{
+
+    section.aboutourproject-sec {
         padding: 60px 0px;
     }
-    .rowproject{
+
+    .rowproject {
         padding-top: 50px;
+    }
+
+    .projects-holder {
+        max-width: 31%;
     }
 
 
@@ -198,6 +211,7 @@
         padding-top: 31px;
         top: 20px;
     }
+
     .conactlink a {
         padding: 5px 15px;
     }
@@ -401,13 +415,16 @@
     .service-holder p {
         font-size: 15px;
     }
+
     .aboutholder {
         max-width: 550px;
 
     }
-    .margin-top{
+
+    .margin-top {
         margin-top: 75px;
     }
+
     section.aboutbaner-sec {
         min-height: 560px;
     }
@@ -416,46 +433,59 @@
         font-size: 14px;
         line-height: 25px;
     }
+
     .acrdean-icon i {
         font-size: 18px;
     }
-    .grid-accordean{
+
+    .grid-accordean {
         padding: 15px 0px;
     }
+
     .sliderabout {
         height: 545px;
         max-width: 415px;
     }
 
-    .aboutmain-sec{
+    .aboutmain-sec {
         padding: 40px 0px;
     }
+
     .mini-span {
         font-size: 22px;
     }
-    .projects-holder p,span.projectdate{
+
+    .projects-holder p,
+    span.projectdate {
         font-size: 15px;
         line-height: 26px;
     }
-    .readmore-icon{
+
+    .readmore-icon {
         padding-top: 10px;
     }
-    .readmore-icon a, .readmore-icon p {
+
+    .readmore-icon a,
+    .readmore-icon p {
         font-size: 16px;
     }
+
     .projects-image {
         height: 245px;
     }
-    .btm-datahere{
-        padding:15px
+
+    .btm-datahere {
+        padding: 15px
     }
-    section.aboutourproject-sec{
+
+    section.aboutourproject-sec {
         padding: 50px 0px;
     }
-    .rowproject{
+
+    .rowproject {
         padding-top: 30px;
     }
-    
+
 
 
 
@@ -592,25 +622,35 @@
         font-size: 25px;
         line-height: normal;
     }
-    section.aboutbaner-sec{
+
+    section.aboutbaner-sec {
         min-height: 500px;
     }
-    .grid-aboutmainsec{
+
+    .grid-aboutmainsec {
         padding-top: 40px;
     }
-    .about-layout{
+
+    .about-layout {
         max-width: 25%;
     }
+
     .cuter-inside {
         max-width: 95%;
     }
-    .projects-holder{
-        height: auto !important; 
+
+    .projects-holder {
+        height: auto !important;
         margin: 0 auto;
         margin-bottom: 30px;
     }
-    section.aboutourproject-sec{
+
+    section.aboutourproject-sec {
         padding: 40px 0px;
+    }
+
+    .projects-holder {
+        max-width: 45%;
     }
 
 
@@ -699,24 +739,29 @@
     section.aboutbaner-sec::after {
         clip-path: polygon(0% 0%, 75% 0%, 96% 54%, 75% 100%, 0% 100%);
     }
+
     .sliderabout {
         height: 446px;
         max-width: 415px;
         margin: 0 auto;
     }
 
-    .acrdeanholder{
+    .acrdeanholder {
         padding-top: 30px;
     }
-    .about-accordean{
+
+    .about-accordean {
         padding: 0px 10px;
     }
+
     .mini-span {
         font-size: 18px;
     }
-    .grid-aboutmainsec{
+
+    .grid-aboutmainsec {
         padding-top: 20px;
     }
+
     .about-layout {
         max-width: 40%;
     }
@@ -724,15 +769,26 @@
     .grid-cutter-images {
         flex-direction: column;
     }
-    .cuuterimage, .cutterdata {
+
+    .cuuterimage,
+    .cutterdata {
         max-width: 100%;
         width: 100%;
     }
-    .cutterdata{
+
+    .cutterdata {
         padding: 30px 0px;
     }
 
-   
+    .gridproject {
+        gap: 20px;
+    }
+
+    .projects-holder {
+        max-width: 48%;
+    }
+
+
 
 
 }
@@ -783,6 +839,10 @@
 
     .scrl-top {
         max-width: 35px;
+    }
+
+    .projects-holder {
+        max-width: 350px;
     }
 }
 
@@ -843,6 +903,7 @@
     .footerlogo {
         max-width: 210px;
     }
+
     .about-layout {
         max-width: 300px;
     }

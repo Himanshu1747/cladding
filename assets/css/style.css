@@ -1583,11 +1583,20 @@ span.projectdate {
 }
 
 .projects-holder {
-    max-width: 500px;
+    max-width: 32%;
     width: 100%;
     transition: 0.3s ease-in;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
+}
+
+.gridproject {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    width: 100%;
+    margin: 0 auto;
 }
 .projects-holder:hover{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
