@@ -652,6 +652,29 @@
     .projects-holder {
         max-width: 45%;
     }
+    header.custome-header.tranparent {
+        background: #fff;
+    }
+
+    header.custome-header.tranparent {
+        background: var(--color-white);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    
+    header.custome-header.tranparent .main-navlink ul.navlist li a,
+    .conactlink a {
+        color: var(--color-black);
+    }
+    
+    header.custome-header.tranparent .main-navlink ul.navlist li a:hover {
+        color: var(--color-blue);
+    }
+    header.custome-header.tranparent .toogleicon i{
+        color: #003087;
+    }
+    .margin-top.home{
+        display: block;
+    }
 
 
 }
@@ -787,6 +810,9 @@
     .projects-holder {
         max-width: 48%;
     }
+    .margin-top {
+        margin-top: 64px;
+    }
 
 
 
@@ -892,6 +918,9 @@
         height: 430px;
         max-width: 360px;
         margin: 0 auto;
+    }
+    .margin-top {
+        margin-top: 58px;
     }
 }
 
