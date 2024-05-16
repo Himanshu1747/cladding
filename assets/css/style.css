@@ -1786,6 +1786,206 @@ section.allprojects-sec {
     padding-top: 50px;
 }
 
+.team-holder {
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+
+}
+
+.team-holder::after {
+    position: absolute;
+    content: "";
+    background: rgb(255 255 255 / 0%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(4px);
+
+    inset: 0;
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+
+.team-image {
+    max-width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.team-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.team-holder .two-five {
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: var(--color-white);
+    padding-bottom: 5px;
+}
+
+.name-team {
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(to right, #0165af, #003087) 1;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #0165af;
+    --tw-gradient-to: rgb(230 46 65 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #003087;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    color: var(--color-white);
+    margin-top: -63px;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+
+}
+
+.socialmediateam ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.socialmediateam ul li i {
+    font-size: 30px;
+    transition: 0.3s ease-in;
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+}
+
+.socialmediateam ul li i:hover {
+    scale: 1.1;
+}
+
+li#faceboook-social a i {
+    color: #1877F2 !important;
+}
+
+li#twiter-social a i {
+    color: var(--color-black) !important;
+}
+
+li#instagramm-social a i {
+    color: #ff1a00 !important;
+}
+
+.socialmediateam {
+    max-width: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transition: 0.3s ease-in;
+}
+
+.team-holder:hover .socialmediateam {
+    top: 50%;
+}
+
+.team-holder:hover::after {
+    opacity: 1;
+}
+
+.gridteam {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section.ourteam-sec {
+    background-color: hsl(205.71deg 20% 13.73%);
+    color: var(--color-white);
+    padding: 80px 0px;
+}
+
+section.ourteam-sec .sub-title {
+    color: var(--color-white);
+}
+
+.name-team p {
+    padding: 0px;
+}
+
+.ed-drawing {
+    max-width: 640px;
+    width: 100%;
+    margin-left: auto;
+}
+
+.service-details {
+    max-width: 850px;
+    width: 100%;
+}
+
+ul.aboutservice li {
+    list-style: disc;
+}
+
+ul.aboutservice {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+.oddeven-holder .sercoveholds {
+    padding: 80px 0px;
+}
+
+.oddeven-holder .sercoveholds:nth-child(odd) {
+    background-color: hsl(205.71deg 20% 13.73%);
+    color: var(--color-white);
+}
+
+.oddeven-holder .sercoveholds:nth-child(odd) .sub-title {
+
+    color: var(--color-white);
+}
+
+.oddeven-holder .sercoveholds:nth-child(odd) .rowdata {
+    flex-direction: row-reverse;
+}
+
+.oddeven-holder .sercoveholds:nth-child(odd) .ed-drawing {
+
+    margin: 0;
+}
+
+.oddeven-holder .sercoveholds:nth-child(odd) .service-details {
+    margin-left: auto;
+}
+
+section.servicess-sec{
+    padding: 80px 0px;
+}
+section.servicess-sec .grid-choose-us{
+    padding-bottom: 50px;
+}
+
+
+
 
 
 
