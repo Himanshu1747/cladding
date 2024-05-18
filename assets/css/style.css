@@ -2019,11 +2019,18 @@ section.contactsec-main .grid-choose-us {
     padding-bottom: 80px;
 }
 
-section.contactsec-main{
+section.contactsec-main {
     padding: 80px 0px;
 }
 
+.dataa-holds label {
+    font-size: 16px;
+    font-weight: 500;
+}
 
+section.aboutchoose-sec.faqmain .about-data{
+    padding: 0px;
+}
 
 
 
