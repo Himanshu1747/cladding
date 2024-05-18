@@ -1977,14 +1977,51 @@ ul.aboutservice {
     margin-left: auto;
 }
 
-section.servicess-sec{
+section.servicess-sec {
     padding: 80px 0px;
 }
-section.servicess-sec .grid-choose-us{
+
+section.servicess-sec .grid-choose-us {
     padding-bottom: 50px;
 }
 
+.submtbtn {
+    text-align: center;
+    background: linear-gradient(to right, #0165af, #003087) 1;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #0165af;
+    --tw-gradient-to: rgb(230 46 65 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #003087;
+    color: var(--color-white);
+    width: 100%;
+    border: none;
+    padding: 10px 0px;
+    font-size: 20px;
+    transition: 0.3s ease-in;
+    border-radius: 5px;
+}
 
+section.contactsec-main .cutterdata {
+    max-width: 100%;
+    width: 100%;
+}
+
+section.contactsec-main .cuter-inside {
+    max-width: 90%;
+}
+
+.cutterdata p a {
+    color: #fff;
+}
+
+section.contactsec-main .grid-choose-us {
+    padding-bottom: 80px;
+}
+
+section.contactsec-main{
+    padding: 80px 0px;
+}
 
 
 

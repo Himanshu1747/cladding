@@ -231,10 +231,21 @@
     section.ourteam-sec {
         padding: 60px 0px;
     }
+
     .service-details {
         max-width: 700px;
     }
-    .oddeven-holder .sercoveholds,section.servicess-sec{
+
+    .oddeven-holder .sercoveholds,
+    section.servicess-sec {
+        padding: 50px 0px;
+    }
+
+    section.contactsec-main .grid-choose-us {
+        padding-bottom: 50px;
+    }
+
+    section.contactsec-main {
         padding: 50px 0px;
     }
 
@@ -563,27 +574,38 @@
         padding-bottom: 5px;
     }
 
-    section.allprojects-sec,section.ourteam-sec{
+    section.allprojects-sec,
+    section.ourteam-sec {
         padding: 50px 0px;
     }
 
     .team-image {
         height: 270px;
     }
-    .socialmediateam ul li i{
+
+    .socialmediateam ul li i {
         font-size: 22px;
     }
-    .team-holder .two-five{
+
+    .team-holder .two-five {
         padding-bottom: 5px;
     }
-    section.servicess-sec .grid-choose-us{
+
+    section.servicess-sec .grid-choose-us {
         padding-bottom: 30px;
     }
+
     .service-details {
         max-width: 600px;
     }
-    .oddeven-holder .sercoveholds, section.servicess-sec{
+
+    .oddeven-holder .sercoveholds,
+    section.servicess-sec {
         padding: 40px 0px;
+    }
+
+    section.contactsec-main .grid-choose-us {
+        padding-bottom: 30px;
     }
 
 
@@ -790,9 +812,16 @@
     .grid-projects {
         padding-top: 30px;
     }
+
     .service-details {
         max-width: 500px;
     }
+
+    .formholder {
+        padding-top: 30px;
+    }
+
+
 
 
 }
@@ -936,16 +965,20 @@
     section.aboutchoose-sec.faqmain .grid-cutter-images {
         flex-direction: column;
     }
-    section.ourteam-sec{
+
+    section.ourteam-sec {
         padding: 40px 0px;
     }
 
-    .service-details,.oddeven-holder .sercoveholds:nth-child(odd) .service-details{
+    .service-details,
+    .oddeven-holder .sercoveholds:nth-child(odd) .service-details {
         max-width: 100%;
         margin: 0 auto;
         padding-bottom: 30px;
     }
-    .ed-drawing,.oddeven-holder .sercoveholds:nth-child(odd) .ed-drawing{
+
+    .ed-drawing,
+    .oddeven-holder .sercoveholds:nth-child(odd) .ed-drawing {
         margin: 0 auto;
         max-width: 500px;
     }
@@ -1012,6 +1045,11 @@
 
     .swiper-slide.swiper-slide-active .slidercase::after {
         opacity: 0.5;
+    }
+
+    .submtbtn {
+        font-size: 16px;
+        padding: 8px 0px;
     }
 }
 
