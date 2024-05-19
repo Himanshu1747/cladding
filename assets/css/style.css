@@ -2036,3 +2036,35 @@ section.aboutchoose-sec.faqmain .about-data{
 
 
 /* ALL PROJRCTS END */
+
+.insidedata {
+    max-width: 90px;
+    border-radius: 50%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to right, #0165af, #003087) 1;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #0165af;
+    --tw-gradient-to: rgb(230 46 65 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #003087;
+    color: var(--color-white);
+    position: fixed;
+    z-index: 111;
+    top: 50%;
+    right: 5px;
+    z-index: 1111;
+    border: 5px solid #fff;
+
+}
+
+.insidedata p,.insidedata i {
+    font-size: 12px;
+    line-height: 15px;
+}
