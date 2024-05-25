@@ -226,7 +226,48 @@ var swiper = new Swiper(".mySwiperaboutacrdean", {
 });
 // ABOUT ACRDEAN SLIDER MAIN END
 
+// TESTIMONIAL 
+var swiper = new Swiper(".mySwipertestimonial", {
+    loop: "true",
+    speed: 2000,
+    autoplay: true,
+    autoplay: {
+        delay: 2000,
+    },
+    slidesPerView: 2.4,
+    spaceBetween: 30,
 
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        100: {
+            slidesPerView: 1,
+
+
+        },
+        575: {
+            slidesPerView: 1,
+
+        },
+        767: {
+            slidesPerView: 1,
+
+        },
+        991: {
+            slidesPerView: 2.2,
+
+        },
+
+  
+    },
+});
+// TESTIMONIAL END
 
 // AOS 
 AOS.init();

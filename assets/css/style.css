@@ -2028,7 +2028,7 @@ section.contactsec-main {
     font-weight: 500;
 }
 
-section.aboutchoose-sec.faqmain .about-data{
+section.aboutchoose-sec.faqmain .about-data {
     padding: 0px;
 }
 
@@ -2064,7 +2064,116 @@ section.aboutchoose-sec.faqmain .about-data{
 
 }
 
-.insidedata p,.insidedata i {
+.insidedata p,
+.insidedata i {
     font-size: 12px;
     line-height: 15px;
 }
+
+/* TESTIMONIAL SEC  */
+section.aboutchoose-sec.faqmain .about-data {
+    padding-bottom: 50px;
+}
+
+.three-zero {
+    font-size: var(--fs-30px);
+    line-height: normal;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.image-client {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.testi-slider-holder {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    max-width: 500px;
+}
+
+.testi-slider-holder p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.maindat-testimonial {
+    background: linear-gradient(to right, #0165af, #003087) 1;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #0165af;
+    --tw-gradient-to: rgb(230 46 65 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #003087;
+    border-radius: 10px;
+    color: var(--color-white);
+    padding: 10px;
+    margin-top: 30px;
+}
+
+section.testimonial-sec {
+    padding: 80px 0px;
+}
+
+.container-custome {
+    max-width: 89%;
+    margin-left: auto;
+    width: 100%;
+}
+
+
+.mySwipertestimonial .swiper-wrapper {
+    margin: 20px;
+}
+
+.image-client img {
+    height: 80px;
+}
+
+.testimonial-btn .swiper-button-prev,
+.testimonial-btn .swiper-button-next,
+.testimonial-btn .swiper-button-next:after {
+    background: var(--color-blue);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: static;
+}
+
+
+.testimonial-btn .swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 25px;
+}
+
+.testimonial-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    max-width: fit-content;
+    margin-left: auto;
+    gap: 50px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.mainpdf {
+    max-width: fit-content;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section.pdf-holdss {
+    padding: 80px 0px;
+    background: #1c242a;
+    color: var(--color-white);
+}
+
+
+/* TESTIMONIAL SEC END */

@@ -249,6 +249,10 @@
         padding: 50px 0px;
     }
 
+    section.testimonial-sec,section.pdf-holdss{
+        padding: 50px 0px;
+    }
+
 
 }
 
@@ -608,6 +612,52 @@
         padding-bottom: 30px;
     }
 
+    .image-client img {
+        height: 65px;
+    }
+
+    .testi-slider-holder {
+        padding: 20px;
+    }
+
+    .testi-slider-holder p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .maindat-testimonial {
+        margin-top: 20px;
+    }
+
+    .testimonial-btn .swiper-button-prev,
+    .testimonial-btn .swiper-button-next,
+    .testimonial-btn .swiper-button-next:after {
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+    }
+
+    .showcasebtn .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after,
+    .showcasebtn .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 16px;
+    }
+
+    section.testimonial-sec {
+        padding: 40px 0px;
+    }
+
+    .testimonial-btn {
+        gap: 30px;
+        padding-top: 35px;
+    }
+    section.pdf-holdss{
+        padding: 40px 0px;
+    }
+
+
+
+
 
 
 
@@ -821,6 +871,10 @@
         padding-top: 30px;
     }
 
+    .testi-slider-holder{
+        padding: 15px;
+    }
+
 
 
 
@@ -982,9 +1036,25 @@
         margin: 0 auto;
         max-width: 500px;
     }
+
     section.aboutchoose-sec.faqmain.main-dataimage {
         padding-top: 40px;
     }
+
+    section.aboutchoose-sec.faqmain .about-data {
+        padding-bottom: 40px;
+    }
+
+    .testmonial-sidedata{
+        padding-bottom: 30px;
+    }
+    .container-custome {
+        max-width: 767px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 10px;
+    }
+
 
 
 
@@ -1054,10 +1124,27 @@
         font-size: 16px;
         padding: 8px 0px;
     }
-    section.aboutchoose-sec.faqmain .about-data{
+
+    section.aboutchoose-sec.faqmain .about-data {
         padding-bottom: 30px;
     }
-    
+    .container-custome {
+        max-width: 575px;
+    }
+    .container-custome {
+        padding: 0px 10px;
+    }
+    .testmonial-sidedata{
+        padding-bottom: 20px;
+    }
+    .image-client img {
+        height: 70px;
+    }
+    .testi-slider-holder {
+        max-width: 93%;
+    }
+
+
 }
 
 @media(max-width:575px) {
