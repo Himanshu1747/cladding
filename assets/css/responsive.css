@@ -249,7 +249,8 @@
         padding: 50px 0px;
     }
 
-    section.testimonial-sec,section.pdf-holdss{
+    section.testimonial-sec,
+    section.pdf-holdss,.oueevent-sec{
         padding: 50px 0px;
     }
 
@@ -624,6 +625,7 @@
         font-size: 14px;
         line-height: 22px;
     }
+
     .maindat-testimonial {
         margin-top: 20px;
     }
@@ -651,10 +653,22 @@
         gap: 30px;
         padding-top: 35px;
     }
-    section.pdf-holdss{
+
+    section.pdf-holdss {
         padding: 40px 0px;
     }
 
+    .oueevent-sec{
+        padding: 50px 0px;
+    }
+
+
+    .oueevent-sec{
+        padding: 40px 0px;
+    }
+    section.oueevent-sec .grid-choose-us{
+        padding-bottom: 30px;
+    }
 
 
 
@@ -871,7 +885,7 @@
         padding-top: 30px;
     }
 
-    .testi-slider-holder{
+    .testi-slider-holder {
         padding: 15px;
     }
 
@@ -1045,15 +1059,24 @@
         padding-bottom: 40px;
     }
 
-    .testmonial-sidedata{
+    .testmonial-sidedata {
         padding-bottom: 30px;
     }
+
     .container-custome {
         max-width: 767px;
         width: 100%;
         margin: 0 auto;
         padding: 0px 10px;
     }
+
+    .testimonial-btn{
+        margin: 0 auto;
+    }
+    section.oueevent-sec .grid-choose-us{
+        gap: 20px;
+    }
+    
 
 
 
@@ -1128,18 +1151,23 @@
     section.aboutchoose-sec.faqmain .about-data {
         padding-bottom: 30px;
     }
+
     .container-custome {
         max-width: 575px;
     }
+
     .container-custome {
         padding: 0px 10px;
     }
-    .testmonial-sidedata{
+
+    .testmonial-sidedata {
         padding-bottom: 20px;
     }
+
     .image-client img {
         height: 70px;
     }
+
     .testi-slider-holder {
         max-width: 93%;
     }
@@ -1214,3 +1242,5 @@
     }
 
 }
+
+

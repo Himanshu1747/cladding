@@ -264,10 +264,63 @@ var swiper = new Swiper(".mySwipertestimonial", {
 
         },
 
-  
+
+
     },
 });
 // TESTIMONIAL END
+
+
+// EVENT SLIDER 
+var swiper = new Swiper(".mySwiperevent", {
+    loop: "true",
+    speed: 2000,
+    autoplay: true,
+    autoplay: {
+        delay: 2000,
+    },
+    slidesPerView: 3,
+    spaceBetween: 30,
+
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        100: {
+            slidesPerView: 1,
+
+
+        },
+        575: {
+            slidesPerView: 1,
+
+        },
+        767: {
+            slidesPerView: 1,
+
+        },
+        991: {
+            slidesPerView: 2,
+
+        },
+        1199:{
+            slidesPerView: 2,
+        },
+        1200:{
+            slidesPerView: 3,
+        }
+
+
+
+    },
+
+});
+// EVENT SLIDER END
 
 // AOS 
 AOS.init();

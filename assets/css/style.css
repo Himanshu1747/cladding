@@ -2177,3 +2177,34 @@ section.pdf-holdss {
 
 
 /* TESTIMONIAL SEC END */
+
+
+/* EVENT SEC  */
+section.oueevent-sec .projects-holder {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.oueevent-sec {
+    padding: 80px 0px;
+}
+
+.mySwiperevent .swiper-wrapper {
+    margin-bottom: 30px;
+}
+
+section.oueevent-sec .btm-datahere {
+    background: #1c242a;
+    color: var(--color-white);
+}
+
+section.oueevent-sec .grid-choose-us {
+    padding-bottom: 50px;
+}
+
+section.oueevent-sec .testimonial-btn .swiper-button-prev, section.oueevent-sec  .testimonial-btn .swiper-button-next, section.oueevent-sec  .testimonial-btn .swiper-button-next:after{
+    background: #1c242a;
+    color: var(--color-white);
+}
+
+/* EVENT SEC END */
